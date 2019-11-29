@@ -62,6 +62,7 @@ namespace conexion
                 Parhoraentrada.SqlDbType = SqlDbType.VarChar;
                 Parhoraentrada.Size = 50;
                 Parhoraentrada.Value = salida.Hora;
+                SqlCmd.Parameters.Add(Parhoraentrada);
 
                 rpta = SqlCmd.ExecuteNonQuery() == 1 ? "OK" : "NO se Actualizo el Registro";
 

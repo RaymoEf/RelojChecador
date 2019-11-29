@@ -96,7 +96,7 @@ namespace conexion
                 Parfinsalida.ParameterName = "@fin_salida";
                 Parfinsalida.SqlDbType = SqlDbType.VarChar;
                 Parfinsalida.Size = 50;
-                Parfinsalida.Value = horarios.Hora_entrada;
+                Parfinsalida.Value = horarios.Fin_salida;
                 SqlCmd.Parameters.Add(Parfinsalida);
 
                 rpta = SqlCmd.ExecuteNonQuery() == 1 ? "OK" : "NO se Ingreso el Registro";

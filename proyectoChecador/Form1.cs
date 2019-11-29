@@ -36,7 +36,7 @@ namespace proyectoChecador
             try
             {
                 string rpta = "";
-                if (this.textBox1.Text == string.Empty)
+                if (this.txtempleado.Text == "")
                 {
                     MensajeError("Falta el id_empleado");
                 }
@@ -44,11 +44,11 @@ namespace proyectoChecador
                 {
                     if (this.entrada)
                     {
-                        rpta = nentrada.Insertar(Convert.ToInt32(this.textBox1.Text), Convert.ToDateTime(this.lblfecha.Text), lblhora.Text);
+                        rpta = nentrada.Insertar(Convert.ToInt32(this.txtempleado.Text), Convert.ToDateTime(this.lblfecha.Text), lblhora.Text);
                     }
                     else
                     {
-                        rpta = Nsalida.Insertar(Convert.ToInt32(this.textBox1.Text), Convert.ToDateTime(this.lblhora.Text), this.lblhora.Text);
+                        rpta = Nsalida.Insertar(Convert.ToInt32(this.txtempleado.Text), Convert.ToDateTime(this.lblhora.Text), this.lblhora.Text);
                     }
 
                     if (rpta.Equals("OK"))
@@ -79,7 +79,7 @@ namespace proyectoChecador
 
         private void vista_empleado_closing(object sender, FormClosingEventArgs e)
         {
-            this.textBox1.Text = Class1.idempleado;
+            this.txtempleado.Text = Class1.idempleado;
             Class1.idempleado = string.Empty;
         }
 
@@ -108,16 +108,37 @@ namespace proyectoChecador
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            vista_empleados ve = new vista_empleados();
+            vista_horarios ve = new vista_horarios();
             ve.FormClosing += vista_empleado_closing;
             ve.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            DateTime uno = Convert.ToDateTime(lblhora.Text);
-            uno=uno.AddMinutes(5);
-            MensajeOk(uno.ToString());
+            this.entrada = true;
+            this.salida = false;
+            this.Registro();
+            txtempleado.Text = string.Empty;
+        }
+
+        private void entradasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            entradas es = new entradas();
+            es.Show();
+        }
+
+        private void salidasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            salidas sa = new salidas();
+            sa.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.entrada = false;
+            this.salida = true;
+            this.Registro();
+            txtempleado.Text = string.Empty;
         }
     }
 }

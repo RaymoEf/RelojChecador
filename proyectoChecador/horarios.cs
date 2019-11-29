@@ -49,8 +49,6 @@ namespace proyectoChecador
             this.textBox4.ReadOnly = !valor;
             this.textBox5.ReadOnly = !valor;
             this.textBox6.ReadOnly = !valor;
-
-
         }
 
         private void Botones()
@@ -267,7 +265,7 @@ namespace proyectoChecador
             this.Botones();
             this.Habilitar(false);
             this.Limpiar();
-            this.textBox1.Text = string.Empty;
+           // this.textBox1.Text = string.Empty;
         }
     }
 }
