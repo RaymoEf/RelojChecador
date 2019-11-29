@@ -43,7 +43,9 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Nempleado.cs" />
+    <Compile Include="nentrada.cs" />
     <Compile Include="Nhorario.cs" />
+    <Compile Include="Nsalida.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

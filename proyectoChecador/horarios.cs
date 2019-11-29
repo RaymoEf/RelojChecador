@@ -78,7 +78,7 @@ namespace proyectoChecador
         private void OcultarColumnas()
         {
             this.dataListado.Columns[0].Visible = false;
-            //this.dataListado.Columns[1].Visible = false;
+            this.dataListado.Columns[1].Visible = false;
         }
 
         private void Mostrar()

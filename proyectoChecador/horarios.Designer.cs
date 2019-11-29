@@ -94,6 +94,7 @@
             this.tabPage1.Controls.Add(this.dataListado);
             this.tabPage1.Controls.Add(this.lblTolal);
             this.tabPage1.Controls.Add(this.chkEliminar);
+            this.tabPage1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -116,9 +117,11 @@
             this.dataListado.AllowUserToAddRows = false;
             this.dataListado.AllowUserToDeleteRows = false;
             this.dataListado.AllowUserToOrderColumns = true;
+            this.dataListado.BackgroundColor = System.Drawing.Color.Ivory;
             this.dataListado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataListado.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Eliminar});
+            this.dataListado.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dataListado.Location = new System.Drawing.Point(29, 53);
             this.dataListado.MultiSelect = false;
             this.dataListado.Name = "dataListado";
@@ -138,6 +141,7 @@
             // lblTolal
             // 
             this.lblTolal.AutoSize = true;
+            this.lblTolal.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblTolal.Location = new System.Drawing.Point(316, 16);
             this.lblTolal.Name = "lblTolal";
             this.lblTolal.Size = new System.Drawing.Size(35, 13);
@@ -147,6 +151,7 @@
             // chkEliminar
             // 
             this.chkEliminar.AutoSize = true;
+            this.chkEliminar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.chkEliminar.Location = new System.Drawing.Point(12, 16);
             this.chkEliminar.Name = "chkEliminar";
             this.chkEliminar.Size = new System.Drawing.Size(62, 17);

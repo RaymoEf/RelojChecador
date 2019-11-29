@@ -102,6 +102,7 @@
             this.tabPage1.Controls.Add(this.dataListado);
             this.tabPage1.Controls.Add(this.lblTolal);
             this.tabPage1.Controls.Add(this.chkEliminar);
+            this.tabPage1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -146,6 +147,7 @@
             // lblTolal
             // 
             this.lblTolal.AutoSize = true;
+            this.lblTolal.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblTolal.Location = new System.Drawing.Point(319, 23);
             this.lblTolal.Name = "lblTolal";
             this.lblTolal.Size = new System.Drawing.Size(35, 13);
@@ -155,6 +157,7 @@
             // chkEliminar
             // 
             this.chkEliminar.AutoSize = true;
+            this.chkEliminar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.chkEliminar.Location = new System.Drawing.Point(15, 23);
             this.chkEliminar.Name = "chkEliminar";
             this.chkEliminar.Size = new System.Drawing.Size(62, 17);
