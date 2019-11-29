@@ -282,6 +282,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.groupBox1);
             this.Name = "entradas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "entradas";
             this.Load += new System.EventHandler(this.entradas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataListado)).EndInit();

@@ -140,5 +140,10 @@ namespace proyectoChecador
             this.Registro();
             txtempleado.Text = string.Empty;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

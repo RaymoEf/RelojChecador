@@ -76,6 +76,7 @@
             this.Controls.Add(this.lblTolal);
             this.Controls.Add(this.dataListado);
             this.Name = "vista_horarios";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "vista_horarios";
             this.Load += new System.EventHandler(this.vista_horarios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataListado)).EndInit();

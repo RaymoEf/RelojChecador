@@ -68,6 +68,7 @@
             this.Controls.Add(this.dataListado);
             this.Controls.Add(this.lblTolal);
             this.Name = "salidas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "salidas";
             this.Load += new System.EventHandler(this.salidas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataListado)).EndInit();

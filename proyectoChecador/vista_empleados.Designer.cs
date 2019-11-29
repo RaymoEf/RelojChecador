@@ -76,6 +76,7 @@
             this.Controls.Add(this.dataListado);
             this.Controls.Add(this.lblTolal);
             this.Name = "vista_empleados";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "vista_empleados";
             this.Load += new System.EventHandler(this.vista_empleados_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataListado)).EndInit();

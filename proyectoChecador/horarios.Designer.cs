@@ -410,6 +410,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.groupBox1);
             this.Name = "horarios";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "horarios";
             this.Load += new System.EventHandler(this.horarios_Load);
             this.groupBox1.ResumeLayout(false);

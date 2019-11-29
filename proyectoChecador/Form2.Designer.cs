@@ -515,6 +515,7 @@
             this.ClientSize = new System.Drawing.Size(734, 549);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.groupBox1.ResumeLayout(false);

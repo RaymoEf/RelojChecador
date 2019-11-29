@@ -203,5 +203,38 @@
   <ItemGroup>
     <None Include="Resources\calendario.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hiring_a_moving_company.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comprobado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empleados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reloj-de-pulsera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\papeles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iniciar-la-sesion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resign.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
