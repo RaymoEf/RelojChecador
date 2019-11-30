@@ -31,7 +31,6 @@
             this.dataListado = new System.Windows.Forms.DataGridView();
             this.Eliminar = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.lblTolal = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataListado)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,25 +67,12 @@
             this.lblTolal.TabIndex = 11;
             this.lblTolal.Text = "label3";
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = global::proyectoChecador.Properties.Resources.flecha;
-            this.button1.Location = new System.Drawing.Point(12, 372);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(38, 23);
-            this.button1.TabIndex = 58;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // vista_empleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(709, 397);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.dataListado);
             this.Controls.Add(this.lblTolal);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -105,6 +91,5 @@
         private System.Windows.Forms.DataGridView dataListado;
         private System.Windows.Forms.DataGridViewCheckBoxColumn Eliminar;
         private System.Windows.Forms.Label lblTolal;
-        private System.Windows.Forms.Button button1;
     }
 }

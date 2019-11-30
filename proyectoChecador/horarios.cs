@@ -267,5 +267,10 @@ namespace proyectoChecador
             this.Limpiar();
            // this.textBox1.Text = string.Empty;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

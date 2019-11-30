@@ -16,7 +16,9 @@ namespace proyectoChecador
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormPrincipal());
+            FormPrincipal formPrincipal = new FormPrincipal();
+            if (formPrincipal.ShowDialog() == DialogResult.OK)
+                Application.Run(new Form1());
         }
     }
 }
