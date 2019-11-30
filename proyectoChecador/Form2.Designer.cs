@@ -43,10 +43,6 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label12 = new System.Windows.Forms.Label();
-            this.buttonnuevo = new System.Windows.Forms.Button();
-            this.buttoncancelar = new System.Windows.Forms.Button();
-            this.buttonguardar = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
@@ -65,6 +61,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.buttonnuevo = new System.Windows.Forms.Button();
+            this.buttoncancelar = new System.Windows.Forms.Button();
+            this.buttonguardar = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -97,7 +98,7 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(62)))), ((int)(((byte)(82)))));
+            this.tabPage1.BackColor = System.Drawing.Color.Black;
             this.tabPage1.Controls.Add(this.btnEliminar);
             this.tabPage1.Controls.Add(this.dataListado);
             this.tabPage1.Controls.Add(this.lblTolal);
@@ -113,7 +114,7 @@
             // btnEliminar
             // 
             this.btnEliminar.Image = global::proyectoChecador.Properties.Resources.icons8_eliminar_64;
-            this.btnEliminar.Location = new System.Drawing.Point(15, 382);
+            this.btnEliminar.Location = new System.Drawing.Point(597, 394);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 80);
             this.btnEliminar.TabIndex = 11;
@@ -168,17 +169,13 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(62)))), ((int)(((byte)(82)))));
+            this.tabPage2.BackColor = System.Drawing.Color.Black;
             this.tabPage2.Controls.Add(this.buttoneditar);
             this.tabPage2.Controls.Add(this.textBox4);
             this.tabPage2.Controls.Add(this.label13);
             this.tabPage2.Controls.Add(this.comboBox1);
             this.tabPage2.Controls.Add(this.dateTimePicker1);
             this.tabPage2.Controls.Add(this.label12);
-            this.tabPage2.Controls.Add(this.buttonnuevo);
-            this.tabPage2.Controls.Add(this.buttoncancelar);
-            this.tabPage2.Controls.Add(this.buttonguardar);
-            this.tabPage2.Controls.Add(this.pictureBox1);
             this.tabPage2.Controls.Add(this.textBox9);
             this.tabPage2.Controls.Add(this.textBox8);
             this.tabPage2.Controls.Add(this.textBox7);
@@ -197,6 +194,10 @@
             this.tabPage2.Controls.Add(this.label3);
             this.tabPage2.Controls.Add(this.label2);
             this.tabPage2.Controls.Add(this.label1);
+            this.tabPage2.Controls.Add(this.buttonnuevo);
+            this.tabPage2.Controls.Add(this.buttoncancelar);
+            this.tabPage2.Controls.Add(this.buttonguardar);
+            this.tabPage2.Controls.Add(this.pictureBox1);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -218,7 +219,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(62)))), ((int)(((byte)(82)))));
+            this.textBox4.BackColor = System.Drawing.Color.Black;
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox4.ForeColor = System.Drawing.Color.White;
             this.textBox4.Location = new System.Drawing.Point(303, 188);
@@ -239,7 +240,7 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(62)))), ((int)(((byte)(82)))));
+            this.comboBox1.BackColor = System.Drawing.Color.Black;
             this.comboBox1.ForeColor = System.Drawing.Color.White;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
@@ -271,54 +272,9 @@
             this.label12.TabIndex = 105;
             this.label12.Text = "Nuevo de empleado";
             // 
-            // buttonnuevo
-            // 
-            this.buttonnuevo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonnuevo.Image = global::proyectoChecador.Properties.Resources.add_friend1;
-            this.buttonnuevo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.buttonnuevo.Location = new System.Drawing.Point(525, 170);
-            this.buttonnuevo.Name = "buttonnuevo";
-            this.buttonnuevo.Size = new System.Drawing.Size(83, 71);
-            this.buttonnuevo.TabIndex = 13;
-            this.buttonnuevo.UseVisualStyleBackColor = false;
-            this.buttonnuevo.Click += new System.EventHandler(this.buttonnuevo_Click);
-            // 
-            // buttoncancelar
-            // 
-            this.buttoncancelar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttoncancelar.Image = global::proyectoChecador.Properties.Resources.icons8_cerrar_todas_las_pestañas_48;
-            this.buttoncancelar.Location = new System.Drawing.Point(523, 414);
-            this.buttoncancelar.Name = "buttoncancelar";
-            this.buttoncancelar.Size = new System.Drawing.Size(85, 63);
-            this.buttoncancelar.TabIndex = 103;
-            this.buttoncancelar.UseVisualStyleBackColor = true;
-            this.buttoncancelar.Click += new System.EventHandler(this.buttoncancelar_Click);
-            // 
-            // buttonguardar
-            // 
-            this.buttonguardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.buttonguardar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonguardar.Image = global::proyectoChecador.Properties.Resources.icons8_guardar_cerrar_48;
-            this.buttonguardar.Location = new System.Drawing.Point(525, 250);
-            this.buttonguardar.Name = "buttonguardar";
-            this.buttonguardar.Size = new System.Drawing.Size(83, 66);
-            this.buttonguardar.TabIndex = 102;
-            this.buttonguardar.UseVisualStyleBackColor = false;
-            this.buttonguardar.Click += new System.EventHandler(this.buttonguardar_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::proyectoChecador.Properties.Resources.empleado;
-            this.pictureBox1.Location = new System.Drawing.Point(492, 14);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(126, 145);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 101;
-            this.pictureBox1.TabStop = false;
-            // 
             // textBox9
             // 
-            this.textBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(62)))), ((int)(((byte)(82)))));
+            this.textBox9.BackColor = System.Drawing.Color.Black;
             this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox9.ForeColor = System.Drawing.Color.White;
             this.textBox9.Location = new System.Drawing.Point(303, 430);
@@ -328,7 +284,7 @@
             // 
             // textBox8
             // 
-            this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(62)))), ((int)(((byte)(82)))));
+            this.textBox8.BackColor = System.Drawing.Color.Black;
             this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox8.ForeColor = System.Drawing.Color.White;
             this.textBox8.Location = new System.Drawing.Point(303, 394);
@@ -339,7 +295,7 @@
             // 
             // textBox7
             // 
-            this.textBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(62)))), ((int)(((byte)(82)))));
+            this.textBox7.BackColor = System.Drawing.Color.Black;
             this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox7.ForeColor = System.Drawing.Color.White;
             this.textBox7.Location = new System.Drawing.Point(303, 362);
@@ -349,7 +305,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(62)))), ((int)(((byte)(82)))));
+            this.textBox6.BackColor = System.Drawing.Color.Black;
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox6.ForeColor = System.Drawing.Color.White;
             this.textBox6.Location = new System.Drawing.Point(304, 296);
@@ -359,7 +315,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(62)))), ((int)(((byte)(82)))));
+            this.textBox5.BackColor = System.Drawing.Color.Black;
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox5.ForeColor = System.Drawing.Color.White;
             this.textBox5.Location = new System.Drawing.Point(304, 260);
@@ -369,7 +325,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(62)))), ((int)(((byte)(82)))));
+            this.textBox3.BackColor = System.Drawing.Color.Black;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox3.ForeColor = System.Drawing.Color.White;
             this.textBox3.Location = new System.Drawing.Point(303, 153);
@@ -379,7 +335,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(62)))), ((int)(((byte)(82)))));
+            this.textBox2.BackColor = System.Drawing.Color.Black;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2.ForeColor = System.Drawing.Color.White;
             this.textBox2.Location = new System.Drawing.Point(303, 115);
@@ -389,7 +345,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(62)))), ((int)(((byte)(82)))));
+            this.textBox1.BackColor = System.Drawing.Color.Black;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(303, 73);
@@ -507,13 +463,72 @@
             this.label1.TabIndex = 83;
             this.label1.Text = "Nombre:";
             // 
+            // buttonnuevo
+            // 
+            this.buttonnuevo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonnuevo.Image = global::proyectoChecador.Properties.Resources.add_friend1;
+            this.buttonnuevo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.buttonnuevo.Location = new System.Drawing.Point(525, 170);
+            this.buttonnuevo.Name = "buttonnuevo";
+            this.buttonnuevo.Size = new System.Drawing.Size(83, 71);
+            this.buttonnuevo.TabIndex = 13;
+            this.buttonnuevo.UseVisualStyleBackColor = false;
+            this.buttonnuevo.Click += new System.EventHandler(this.buttonnuevo_Click);
+            // 
+            // buttoncancelar
+            // 
+            this.buttoncancelar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttoncancelar.Image = global::proyectoChecador.Properties.Resources.icons8_cerrar_todas_las_pestañas_48;
+            this.buttoncancelar.Location = new System.Drawing.Point(523, 414);
+            this.buttoncancelar.Name = "buttoncancelar";
+            this.buttoncancelar.Size = new System.Drawing.Size(85, 63);
+            this.buttoncancelar.TabIndex = 103;
+            this.buttoncancelar.UseVisualStyleBackColor = true;
+            this.buttoncancelar.Click += new System.EventHandler(this.buttoncancelar_Click);
+            // 
+            // buttonguardar
+            // 
+            this.buttonguardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.buttonguardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonguardar.Image = global::proyectoChecador.Properties.Resources.icons8_guardar_cerrar_48;
+            this.buttonguardar.Location = new System.Drawing.Point(525, 250);
+            this.buttonguardar.Name = "buttonguardar";
+            this.buttonguardar.Size = new System.Drawing.Size(83, 66);
+            this.buttonguardar.TabIndex = 102;
+            this.buttonguardar.UseVisualStyleBackColor = false;
+            this.buttonguardar.Click += new System.EventHandler(this.buttonguardar_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::proyectoChecador.Properties.Resources.empleado;
+            this.pictureBox1.Location = new System.Drawing.Point(492, 14);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(126, 145);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 101;
+            this.pictureBox1.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = global::proyectoChecador.Properties.Resources.flecha;
+            this.button1.Location = new System.Drawing.Point(12, 548);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(38, 23);
+            this.button1.TabIndex = 57;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(62)))), ((int)(((byte)(82)))));
-            this.ClientSize = new System.Drawing.Size(734, 549);
+            this.BackColor = System.Drawing.Color.Black;
+            this.ClientSize = new System.Drawing.Size(734, 583);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
@@ -569,5 +584,6 @@
         private System.Windows.Forms.CheckBox chkEliminar;
         private System.Windows.Forms.Button buttoneditar;
         private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button button1;
     }
 }

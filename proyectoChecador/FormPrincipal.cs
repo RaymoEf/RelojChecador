@@ -7,28 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using capaN;
 
 namespace proyectoChecador
 {
-    public partial class salidas : Form
+    public partial class FormPrincipal : Form
     {
-        public salidas()
+        public FormPrincipal()
         {
             InitializeComponent();
         }
 
-        private void Mostrar()
+        private void button2_Click(object sender, EventArgs e)
         {
-            this.dataListado.DataSource = Nsalida.Mostrar();
-            lblTolal.Text = "Total de Registros: " + Convert.ToString(dataListado.Rows.Count);
-        }
-
-        private void salidas_Load(object sender, EventArgs e)
-        {
-            this.Top = 0;
-            this.Left = 0;
-            this.Mostrar();
+            Application.Exit();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -36,6 +27,7 @@ namespace proyectoChecador
             Form1 f1 = new Form1();
             this.Hide();
             f1.Show();
+
         }
     }
 }

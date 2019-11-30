@@ -28,21 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblTolal = new System.Windows.Forms.Label();
             this.Eliminar = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.dataListado = new System.Windows.Forms.DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
+            this.lblTolal = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataListado)).BeginInit();
             this.SuspendLayout();
-            // 
-            // lblTolal
-            // 
-            this.lblTolal.AutoSize = true;
-            this.lblTolal.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblTolal.Location = new System.Drawing.Point(9, 10);
-            this.lblTolal.Name = "lblTolal";
-            this.lblTolal.Size = new System.Drawing.Size(35, 13);
-            this.lblTolal.TabIndex = 13;
-            this.lblTolal.Text = "label3";
             // 
             // Eliminar
             // 
@@ -67,14 +58,39 @@
             this.dataListado.TabIndex = 14;
             this.dataListado.DoubleClick += new System.EventHandler(this.dataListado_DoubleClick);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = global::proyectoChecador.Properties.Resources.flecha;
+            this.button1.Location = new System.Drawing.Point(12, 369);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(38, 23);
+            this.button1.TabIndex = 58;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // lblTolal
+            // 
+            this.lblTolal.AutoSize = true;
+            this.lblTolal.ForeColor = System.Drawing.Color.White;
+            this.lblTolal.Location = new System.Drawing.Point(15, 9);
+            this.lblTolal.Name = "lblTolal";
+            this.lblTolal.Size = new System.Drawing.Size(35, 13);
+            this.lblTolal.TabIndex = 59;
+            this.lblTolal.Text = "label1";
+            // 
             // vista_horarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(62)))), ((int)(((byte)(82)))));
-            this.ClientSize = new System.Drawing.Size(684, 383);
+            this.BackColor = System.Drawing.Color.Black;
+            this.ClientSize = new System.Drawing.Size(684, 401);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblTolal);
             this.Controls.Add(this.dataListado);
+            this.ForeColor = System.Drawing.Color.Black;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "vista_horarios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "vista_horarios";
@@ -86,9 +102,9 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lblTolal;
         private System.Windows.Forms.DataGridViewCheckBoxColumn Eliminar;
         private System.Windows.Forms.DataGridView dataListado;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lblTolal;
     }
 }
