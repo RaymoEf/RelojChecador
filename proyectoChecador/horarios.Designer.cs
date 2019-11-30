@@ -105,6 +105,7 @@
             // 
             // btnEliminar
             // 
+            this.btnEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEliminar.Image = global::proyectoChecador.Properties.Resources.icons8_eliminar_64;
             this.btnEliminar.Location = new System.Drawing.Point(12, 295);
             this.btnEliminar.Name = "btnEliminar";
@@ -194,9 +195,9 @@
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::proyectoChecador.Properties.Resources.lupa;
-            this.pictureBox2.Location = new System.Drawing.Point(654, 41);
+            this.pictureBox2.Location = new System.Drawing.Point(654, 51);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(43, 38);
+            this.pictureBox2.Size = new System.Drawing.Size(29, 26);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 74;
             this.pictureBox2.TabStop = false;
@@ -225,6 +226,7 @@
             // 
             // buttoneditar
             // 
+            this.buttoneditar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttoneditar.ForeColor = System.Drawing.SystemColors.ControlText;
             this.buttoneditar.Image = global::proyectoChecador.Properties.Resources.icons8_editar_archivo_64;
             this.buttoneditar.Location = new System.Drawing.Point(538, 289);
@@ -288,6 +290,7 @@
             // 
             // buttoncancelar
             // 
+            this.buttoncancelar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttoncancelar.ForeColor = System.Drawing.SystemColors.ControlText;
             this.buttoncancelar.Image = global::proyectoChecador.Properties.Resources.icons8_cerrar_todas_las_pestañas_48;
             this.buttoncancelar.Location = new System.Drawing.Point(630, 287);
@@ -301,6 +304,7 @@
             // 
             // buttonguardar
             // 
+            this.buttonguardar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonguardar.ForeColor = System.Drawing.SystemColors.ControlText;
             this.buttonguardar.Image = global::proyectoChecador.Properties.Resources.icons8_guardar_cerrar_64;
             this.buttonguardar.Location = new System.Drawing.Point(169, 289);
@@ -315,6 +319,7 @@
             // buttonnuevo
             // 
             this.buttonnuevo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.buttonnuevo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonnuevo.ForeColor = System.Drawing.Color.Black;
             this.buttonnuevo.Image = global::proyectoChecador.Properties.Resources.icons8_reloj_64;
             this.buttonnuevo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -406,6 +411,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Image = global::proyectoChecador.Properties.Resources.flecha;
             this.button1.Location = new System.Drawing.Point(12, 441);

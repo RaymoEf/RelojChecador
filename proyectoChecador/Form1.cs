@@ -83,6 +83,11 @@ namespace proyectoChecador
             Class1.idempleado = string.Empty;
         }
 
+        private void formularios_closing(object sender, FormClosingEventArgs e)
+        {
+            this.Show();
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             
@@ -97,12 +102,16 @@ namespace proyectoChecador
         private void empleadosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form2 f2 = new Form2();
+            f2.FormClosing += formularios_closing;
+            this.Hide();
             f2.Show();
         }
 
         private void horariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             horarios hr = new horarios();
+            hr.FormClosing += formularios_closing;
+            this.Hide();
             hr.Show();
         }
 
@@ -124,12 +133,16 @@ namespace proyectoChecador
         private void entradasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             entradas es = new entradas();
+            es.FormClosing += formularios_closing;
+            this.Hide();
             es.Show();
         }
 
         private void salidasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             salidas sa = new salidas();
+            sa.FormClosing += formularios_closing;
+            this.Hide();
             sa.Show();
         }
 

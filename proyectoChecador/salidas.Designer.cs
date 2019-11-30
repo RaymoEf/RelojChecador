@@ -63,6 +63,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Image = global::proyectoChecador.Properties.Resources.flecha;
             this.button1.Location = new System.Drawing.Point(12, 366);
