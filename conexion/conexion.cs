@@ -8,6 +8,6 @@ namespace conexion
 {
     class conexion
     {
-        public static string Cn = "Data Source=EFREN-LAP\\SQLEXPRESS; Initial Catalog=reloj2; Integrated Security=true";
+        public static string Cn = "Data Source=FAMILIAR; Initial Catalog=reloj2; Integrated Security=true";
     }
 }

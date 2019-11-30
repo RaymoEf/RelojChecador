@@ -44,11 +44,11 @@ namespace proyectoChecador
                 {
                     if (this.entrada)
                     {
-                        rpta = nentrada.Insertar(Convert.ToInt32(this.txtempleado.Text), Convert.ToDateTime(this.lblfecha.Text), lblhora.Text);
+                        rpta = nentrada.Insertar(int.Parse(this.txtempleado.Text.Trim()), Convert.ToDateTime(this.lblfecha.Text), lblhora.Text);
                     }
                     else
                     {
-                        rpta = Nsalida.Insertar(Convert.ToInt32(this.txtempleado.Text), Convert.ToDateTime(this.lblhora.Text), this.lblhora.Text);
+                        rpta = Nsalida.Insertar(int.Parse(this.txtempleado.Text.Trim()), Convert.ToDateTime(this.lblhora.Text), this.lblhora.Text);
                     }
 
                     if (rpta.Equals("OK"))

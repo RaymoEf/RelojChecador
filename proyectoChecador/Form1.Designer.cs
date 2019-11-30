@@ -125,7 +125,7 @@
             // 
             this.empleadosToolStripMenuItem.Image = global::proyectoChecador.Properties.Resources.empleados;
             this.empleadosToolStripMenuItem.Name = "empleadosToolStripMenuItem";
-            this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(154, 24);
             this.empleadosToolStripMenuItem.Text = "Empleados";
             this.empleadosToolStripMenuItem.Click += new System.EventHandler(this.empleadosToolStripMenuItem_Click);
             // 
@@ -133,7 +133,7 @@
             // 
             this.horariosToolStripMenuItem.Image = global::proyectoChecador.Properties.Resources.reloj_de_pulsera;
             this.horariosToolStripMenuItem.Name = "horariosToolStripMenuItem";
-            this.horariosToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.horariosToolStripMenuItem.Size = new System.Drawing.Size(154, 24);
             this.horariosToolStripMenuItem.Text = "Horarios";
             this.horariosToolStripMenuItem.Click += new System.EventHandler(this.horariosToolStripMenuItem_Click);
             // 
@@ -144,14 +144,14 @@
             this.salidasToolStripMenuItem});
             this.nominaToolStripMenuItem.Image = global::proyectoChecador.Properties.Resources.papeles;
             this.nominaToolStripMenuItem.Name = "nominaToolStripMenuItem";
-            this.nominaToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.nominaToolStripMenuItem.Size = new System.Drawing.Size(154, 24);
             this.nominaToolStripMenuItem.Text = "Historial";
             // 
             // entradasToolStripMenuItem
             // 
             this.entradasToolStripMenuItem.Image = global::proyectoChecador.Properties.Resources.iniciar_la_sesion;
             this.entradasToolStripMenuItem.Name = "entradasToolStripMenuItem";
-            this.entradasToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.entradasToolStripMenuItem.Size = new System.Drawing.Size(139, 24);
             this.entradasToolStripMenuItem.Text = "Entradas";
             this.entradasToolStripMenuItem.Click += new System.EventHandler(this.entradasToolStripMenuItem_Click);
             // 
@@ -159,7 +159,7 @@
             // 
             this.salidasToolStripMenuItem.Image = global::proyectoChecador.Properties.Resources.resign;
             this.salidasToolStripMenuItem.Name = "salidasToolStripMenuItem";
-            this.salidasToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.salidasToolStripMenuItem.Size = new System.Drawing.Size(139, 24);
             this.salidasToolStripMenuItem.Text = "Salidas";
             this.salidasToolStripMenuItem.Click += new System.EventHandler(this.salidasToolStripMenuItem_Click);
             // 
@@ -168,7 +168,7 @@
             this.lblhora.AutoSize = true;
             this.lblhora.Font = new System.Drawing.Font("Century", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblhora.ForeColor = System.Drawing.Color.Gold;
-            this.lblhora.Location = new System.Drawing.Point(-10, 10);
+            this.lblhora.Location = new System.Drawing.Point(-4, 13);
             this.lblhora.Name = "lblhora";
             this.lblhora.Size = new System.Drawing.Size(221, 57);
             this.lblhora.TabIndex = 10;
@@ -196,9 +196,9 @@
             this.panel1.BackColor = System.Drawing.Color.LightSlateGray;
             this.panel1.Controls.Add(this.lblhora);
             this.panel1.Controls.Add(this.lblfecha);
-            this.panel1.Location = new System.Drawing.Point(795, 230);
+            this.panel1.Location = new System.Drawing.Point(795, 233);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(205, 88);
+            this.panel1.Size = new System.Drawing.Size(205, 85);
             this.panel1.TabIndex = 12;
             // 
             // txtempleado
