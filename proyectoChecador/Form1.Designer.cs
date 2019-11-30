@@ -172,7 +172,7 @@
             this.lblhora.AutoSize = true;
             this.lblhora.Font = new System.Drawing.Font("Century", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblhora.ForeColor = System.Drawing.Color.Gold;
-            this.lblhora.Location = new System.Drawing.Point(-10, 10);
+            this.lblhora.Location = new System.Drawing.Point(-4, 13);
             this.lblhora.Name = "lblhora";
             this.lblhora.Size = new System.Drawing.Size(221, 57);
             this.lblhora.TabIndex = 10;
@@ -200,9 +200,9 @@
             this.panel1.BackColor = System.Drawing.Color.LightSlateGray;
             this.panel1.Controls.Add(this.lblhora);
             this.panel1.Controls.Add(this.lblfecha);
-            this.panel1.Location = new System.Drawing.Point(795, 230);
+            this.panel1.Location = new System.Drawing.Point(795, 233);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(205, 88);
+            this.panel1.Size = new System.Drawing.Size(205, 85);
             this.panel1.TabIndex = 12;
             // 
             // txtempleado

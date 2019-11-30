@@ -74,8 +74,9 @@ namespace conexion
 
                 SqlParameter Parestado = new SqlParameter();
                 Parestado.ParameterName = "@estado";
-                Parestado.SqlDbType = SqlDbType.Int;
-                Parestado.Value = entrada.Id_empleado;
+                Parestado.SqlDbType = SqlDbType.VarChar;
+                Parestado.Size = 10;
+                Parestado.Value = entrada.Estado;
                 SqlCmd.Parameters.Add(Parestado);
 
                 rpta = SqlCmd.ExecuteNonQuery() == 1 ? "OK" : "NO se Actualizo el Registro";
