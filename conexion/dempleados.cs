@@ -207,8 +207,7 @@ namespace conexion
 
                 SqlParameter Parfechanac = new SqlParameter();
                 Parfechanac.ParameterName = "@fecha_nac";
-                Parfechanac.SqlDbType = SqlDbType.VarChar;
-                Parfechanac.Size = 50;
+                Parfechanac.SqlDbType = SqlDbType.Date;
                 Parfechanac.Value = empleados.Fecha_nac;
                 SqlCmd.Parameters.Add(Parfechanac);
 
